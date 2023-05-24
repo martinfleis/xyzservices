@@ -1,0 +1,14 @@
+name: Test reverse dependencies
+on:
+  pull_request:
+  workflow_dispatch:
+jobs:
+  reverse_dependencies:
+    name: Reverse dependency testing
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: martinfleis/reverse-dependency-testing@main
+        with:
+            package_name: "xyzservices"
