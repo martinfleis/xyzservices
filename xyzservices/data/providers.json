@@ -12673,6 +12673,29 @@
             "TileMatrixSet": "PM_0_17",
             "apikey": "your_api_key_here"
         },
+        "Orthoimagery_Ortho_sat_Spot_2024": {
+            "url": "https://data.geopf.fr/wmts?SERVICE=WMTS&VERSION=1.0.0&REQUEST=GetTile&STYLE={style}&TILEMATRIXSET={TileMatrixSet}&FORMAT={format}&LAYER={variant}&TILEMATRIX={z}&TILEROW={y}&TILECOL={x}",
+            "html_attribution": "<a target=\"_blank\"href=\"https://www.geoportail.gouv.fr/\">Geoportail France</a>",
+            "attribution": "Geoportail France",
+            "bounds": [
+                [
+                    41.0,
+                    -5.18838
+                ],
+                [
+                    51.5,
+                    9.63
+                ]
+            ],
+            "min_zoom": 0,
+            "max_zoom": 17,
+            "format": "image/jpeg",
+            "style": "normal",
+            "variant": "ORTHOIMAGERY.ORTHO-SAT.SPOT.2024",
+            "name": "GeoportailFrance.Orthoimagery_Ortho_sat_Spot_2024",
+            "TileMatrixSet": "PM_0_17",
+            "apikey": "your_api_key_here"
+        },
         "Orthoimagery_Orthophos_Restrictedareas": {
             "url": "https://data.geopf.fr/wmts?SERVICE=WMTS&VERSION=1.0.0&REQUEST=GetTile&STYLE={style}&TILEMATRIXSET={TileMatrixSet}&FORMAT={format}&LAYER={variant}&TILEMATRIX={z}&TILEROW={y}&TILECOL={x}",
             "html_attribution": "<a target=\"_blank\"href=\"https://www.geoportail.gouv.fr/\">Geoportail France</a>",
@@ -16997,6 +17020,52 @@
             "variant": "testSRD-PCRS86-Poitiers",
             "name": "GeoportailFrance.Testsrd-pcrs86-poitiers",
             "TileMatrixSet": "PM_0_10",
+            "apikey": "your_api_key_here"
+        },
+        "Test_mamp_echantillon_pcrs": {
+            "url": "https://data.geopf.fr/wmts?SERVICE=WMTS&VERSION=1.0.0&REQUEST=GetTile&STYLE={style}&TILEMATRIXSET={TileMatrixSet}&FORMAT={format}&LAYER={variant}&TILEMATRIX={z}&TILEROW={y}&TILECOL={x}",
+            "html_attribution": "<a target=\"_blank\"href=\"https://www.geoportail.gouv.fr/\">Geoportail France</a>",
+            "attribution": "Geoportail France",
+            "bounds": [
+                [
+                    43.3964,
+                    5.0246
+                ],
+                [
+                    43.4236,
+                    5.06254
+                ]
+            ],
+            "min_zoom": 8,
+            "max_zoom": 21,
+            "format": "image/png",
+            "style": "normal",
+            "variant": "test_mamp_echantillon_pcrs",
+            "name": "GeoportailFrance.Test_mamp_echantillon_pcrs",
+            "TileMatrixSet": "2154_5cm_8_21",
+            "apikey": "your_api_key_here"
+        },
+        "Test_mamp_echantillon_pcrs1": {
+            "url": "https://data.geopf.fr/wmts?SERVICE=WMTS&VERSION=1.0.0&REQUEST=GetTile&STYLE={style}&TILEMATRIXSET={TileMatrixSet}&FORMAT={format}&LAYER={variant}&TILEMATRIX={z}&TILEROW={y}&TILECOL={x}",
+            "html_attribution": "<a target=\"_blank\"href=\"https://www.geoportail.gouv.fr/\">Geoportail France</a>",
+            "attribution": "Geoportail France",
+            "bounds": [
+                [
+                    43.3964,
+                    5.0246
+                ],
+                [
+                    43.4236,
+                    5.06254
+                ]
+            ],
+            "min_zoom": 8,
+            "max_zoom": 21,
+            "format": "image/png",
+            "style": "normal",
+            "variant": "test_mamp_echantillon_pcrs1",
+            "name": "GeoportailFrance.Test_mamp_echantillon_pcrs1",
+            "TileMatrixSet": "2154_5cm_8_21",
             "apikey": "your_api_key_here"
         },
         "Tuto_scan1000_srd": {
